@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fitbit-health-dashboard</title>
+<style>
+:root { --paper: #F4F6F9; --ink: #16202C; --muted: #5B6676; --rule: #DCE1E8; --accent: #2A57BF; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --paper: #0D1218; --ink: #E3E8EF; --muted: #95A0AF; --rule: #263140; --accent: #86A9F5; color-scheme: dark; } }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 56px; }
+h1 { font-size: 26px; margin: 0 0 8px; }
+h2 { font-size: 20px; margin: 36px 0 8px; padding-top: 20px; border-top: 1px solid var(--rule); }
+h3 { font-size: 16px; margin: 20px 0 4px; }
+p { margin: 0 0 10px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>fitbit-health-dashboard</h1>
+  <p>A personal health dashboard, built by its owner for their own use. It shows the owner's own wearable data, such as sleep, steps and heart rate, in charts and phone widgets on the owner's own devices.</p>
+  <p>It is not a public service. Nobody else can sign up or use it.</p>
+  <p><a href="#privacy">Privacy policy</a> · <a href="#terms">Terms of service</a></p>
+  <p class="muted">Last updated November 2, 2026.</p>
+
+  <h2 id="privacy">Privacy policy</h2>
+
+  <h3>What the app accesses</h3>
+  <p>The app signs in to the owner's Google account with read-only access to their Google Health data, including activity, sleep, heart rate and related measurements, and the status of their paired device. It does not access anyone else's data.</p>
+
+  <h3>How the data is used</h3>
+  <p>The data is used only to show the owner their own charts and widgets.</p>
+
+  <h3>Where the data is stored</h3>
+  <p>The data and the Google sign-in credentials are stored on a computer owned by the owner. They reach the owner's phone over an encrypted private network. The app has no cloud storage of its own.</p>
+
+  <h3>Sharing</h3>
+  <p>The app does not sell or share the data, and does not use it for advertising or to train AI models. The owner may use an AI coding assistant to help maintain the app, and that assistant can process any data the owner shows it.</p>
+  <p>The app's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+
+  <h3>Retention and deletion</h3>
+  <p>Raw API responses are removed after about 14 days. Parsed data is kept until the owner deletes it. Access can be revoked at any time from <a href="https://myaccount.google.com/permissions">Google Account permissions</a>.</p>
+
+  <h3>Contact</h3>
+  <p>Questions can be raised through this site's <a href="https://github.com/TravisAndCo/health-dashboard-site/issues">GitHub issues</a>.</p>
+
+  <h2 id="terms">Terms of service</h2>
+  <p>This app is a personal project for its owner's use only. It is provided as is, with no warranty of any kind.</p>
+  <p>It is not a medical device and does not give medical advice.</p>
+  <p>These terms may change as the project changes, and the date above shows the latest version.</p>
+</main>
+</body>
+</html>
